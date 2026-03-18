@@ -200,6 +200,16 @@ a {
     box-shadow: 0 20px 40px rgba(255, 255, 255, 0.1);
 }
 
+.btn-blue {
+    background-color: var(--secondary);
+    color: #fff;
+}
+
+.btn-blue:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px var(--secondary-glow);
+}
+
 .btn-secondary {
     background: var(--glass);
     border: 1px solid var(--glass-border);
