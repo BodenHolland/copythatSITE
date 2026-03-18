@@ -306,10 +306,15 @@ a {
 }
 
 .step-num {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
     font-size: 1rem;
     font-weight: 800;
     background: var(--glass);
-    padding: 8px 12px;
     border-radius: 8px;
     color: var(--accent);
     border: 1px solid var(--glass-border);
